@@ -42,35 +42,27 @@ en niet worden vernietigd of gewist door het verlies van een internetverbinding.
 
 ### Developer Tools
 
-#### Chrome
+**Chrome**
 
 In dit [artikel](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage?utm_source=devtools) 
 kan je lezen hoe je via Dev Tools (`inspector`) de LocalStorage van websites van verwijderen.
 
-#### Firefox
+**Firefox**
 
 Om de LocalStorage ver websites te verwijderen via Firefox moet je de volgende stappen doorlopen.
 
-**Stap 1**
+1. Ga naar de website waarvan je de LocalStorage wilt verwijderen.
 
-Ga naar de website waarvan je de LocalStorage wilt verwijderen.
-
-**Stap 2**
-
-Op de `inspector`.
+2. Op de `inspector`.
 
 - Rechtermuisklik in browser.
 - Kies `Inspect Element`.
 
-**Stap 3**
-
-Ga naar de tab `Storage`.
+3. Ga naar de tab `Storage`.
 
 ![Firefox Stap 3](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/clear-localstorage/firefox/firefox-localstorage-step-3.png "Firefox Stap 3")
 
-**Stap 4**
-
-Ga naar `LocalStorage`.
+4. Ga naar `LocalStorage`.
 
 ![Firefox Stap 4](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/clear-localstorage/firefox/firefox-localstorage-step-4.png "Firefox Stap 4")
 
@@ -78,62 +70,38 @@ Ga naar `LocalStorage`.
 
 **Let op**: Dit is een definitieve stap! Als je dit hebt uitgevoerd is de data die je hebt verwijderd niet meer terug te halen.
 
-#### Chrome
+**Chrome**
 
-**Stap 1**
+1. Druk ctrl+shift+del (Windows) of cmd+shift+back (Mac) om de `Clear browsing data` pagina in Chrome te openen.
 
-Druk ctrl+shift+del (Windows) of cmd+shift+back (Mac) om de `Clear browsing data` pagina in Chrome te openen.
+2. Vink `Cookies and other site data` aan.
 
-**Stap 2**
+3. Veranderd het tijdsvak naar `the beginning of time` als je het alles wilt verwijderen of een ander tijdvak als je maar van bijv. alleen vandaag wilt verwijderen.
 
-Vink `Cookies and other site data` aan.
+4. Klik op de knop `Clear browsing data` om alles te verwijderen.
 
-**Stap 3**
+**Firefox**
 
-Veranderd het tijdsvak naar `the beginning of time` als je het alles wilt verwijderen of een ander tijdvak als je maar van bijv. alleen vandaag wilt verwijderen.
+1. Druk ctrl+shift+del (Windows) of cmd+shift+back (Mac) om de `Clear All History` menu in Firefox te openen.
 
-**Stap 4**
+2. Vink `Cookies` aan.
 
-Klik op de knop `Clear browsing data` om alles te verwijderen.
+3. Veranderd het tijdsvak naar `teverything` als je het alles wilt verwijderen of een ander tijdvak als je maar van bijv. alleen vandaag wilt verwijderen.
 
-#### Firefox
+4. Klik op de knop `Clear Now` om alles te verwijderen.
 
-**Stap 1**
+**Safari**
 
-Druk ctrl+shift+del (Windows) of cmd+shift+back (Mac) om de `Clear All History` menu in Firefox te openen.
-
-**Stap 2**
-
-Vink `Cookies` aan.
-
-**Stap 3**
-
-Veranderd het tijdsvak naar `teverything` als je het alles wilt verwijderen of een ander tijdvak als je maar van bijv. alleen vandaag wilt verwijderen.
-
-**Stap 4**
-
-Klik op de knop `Clear Now` om alles te verwijderen.
-
-#### Safari
-
-**Stap 1**
-
-Op de `inspector`.
+1. Op de `inspector`.
 
 - Rechtermuisklik in browser.
 - Kies `Inspect Element`.
 
-**Stap 2**
+2. Ga naar de tab `Console`.
 
-Ga naar de tab `Console`.
+3. type `localStorage.clear()` en klik op `Enter`.
 
-**Stap 3**
-
-type `localStorage.clear()` en klik op `Enter`.
-
-**Stap 4**
-
-Restart te browser.
+4. Restart te browser.
 
 ## Bronnen
 
