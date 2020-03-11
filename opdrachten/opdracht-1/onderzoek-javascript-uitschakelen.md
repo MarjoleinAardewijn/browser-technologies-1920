@@ -27,6 +27,7 @@ Ga naar het menu rechtsboven door op het icoontje met de drie stippen onder elka
 ![menu icon](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-1.png "Chrome Stap 1 - menu icon")
 
 **Stap 2**
+
 Kies `Settings`.
 
 ![Chrome Stap 2](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-2.png "Chrome Stap 2")
