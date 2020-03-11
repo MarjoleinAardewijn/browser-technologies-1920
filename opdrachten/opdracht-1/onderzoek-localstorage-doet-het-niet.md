@@ -4,13 +4,8 @@
 
 * [Cookies vs LocalStorage](#Cookies-vs-LocalStorage)
 * [LocalStorage verwijderen](#LocalStorage-verwijderen)
-  * [Developer Tools](#Developer-Tools)
-    * [Chrome](#Chrome)
-    * [Firefox](#Firefox)  
+  * [Developer Tools](#Developer-Tools) 
   * [Browser](#Browser)
-    * [Chrome](#Chrome)
-    * [Firefox](#Firefox)
-    * [Safari](#Safari)
 * [Bronnen](#Bronnen)
 
 ## Cookies vs LocalStorage
