@@ -50,8 +50,8 @@ Om de LocalStorage ver websites te verwijderen via Firefox moet je de volgende s
 
 2. Op de `inspector`.
 
-- Rechtermuisklik in browser.
-- Kies `Inspect Element`.
+  - Rechtermuisklik in browser.
+  - Kies `Inspect Element`.
 
 3. Ga naar de tab `Storage`.
 
