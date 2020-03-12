@@ -2,6 +2,7 @@
 
 ## Inhoudsopgave
 
+* [Inleiding](#Inleiding)
 * [Test op 3 verschillende devices](#Test-op-3-verschillende-devices)
   * [HTC Nexus 9 (tablet)](#HTC-Nexus-9-(tablet))
   * [IPod Touch](#IPod-Touch)
@@ -20,6 +21,10 @@
   * [Kleurenblindheid](#Kleurenblindheid)
   * [Breedband Internet Uitzetten](#Breedband-Internet-Uitzetten)
 
+## Inleiding
+
+In dit document zijn de bevindingen van de tests van mijn [OBA project](https://marjoleinaardewijn.github.io/project-1-1920/) te zien.
+
 ## Test op 3 verschillende devices
 
 ### HTC Nexus 9 (tablet)
@@ -28,8 +33,6 @@ whichbrowser.net rapport:
 > You are using Chrome 80 on a HTC Nexus 9 running Android 7.1.1
 
 > Mozilla/5.0 (Linux; Android 7.1.1; Nexus 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
-
-Geteste site: [OBA project](https://marjoleinaardewijn.github.io/project-1-1920/).
 
 **Resultaat:** \
 Werkt snel en geen bugs tegengekomen.
@@ -42,8 +45,6 @@ whichbrowser.net rapport:
 > Mozilla/5.0 (iPod; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 
 Safari/8536.25
 
-Geteste site: [OBA project](https://marjoleinaardewijn.github.io/project-1-1920/).
-
 **Resultaat:** \
 Alle styling valt weg. \
 Router werkt niet > JS werkt waarschijnlijk niet.
@@ -55,8 +56,6 @@ whichbrowser.net rapport:
 
 > Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 620) 
 like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
-
-Geteste site: [OBA project](https://marjoleinaardewijn.github.io/project-1-1920/).
 
 **Resultaat:** \
 Bijna alle styling valt weg. \
