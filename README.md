@@ -2,10 +2,10 @@
 
 ## Inhoudsopgave
 
-* [Opdracht 1.1 Progressive Enhancements](#Opdracht-1.1-Progressive-Enhancements)
-  * [JavaScript (volledig)](#JavaScript-(volledig))
+* [Opdracht 1.1 Progressive Enhancements](#Opdracht-1-.-1-Progressive-Enhancements)
+  * [JavaScript (volledig)](#JavaScript-(-volledig-))
   * [LocalStorage doet het niet](#LocalStorage-doet-het-niet)
-* [Opdracht 1.2 Features Testen](#Opdracht-1.2-Features-Testen)
+* [Opdracht 1.2 Features Testen](#Opdracht-1-.-2-Features-Testen)
 
 ## Opdracht 1.1 Progressive Enhancements
 
