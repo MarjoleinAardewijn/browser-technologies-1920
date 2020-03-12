@@ -2,14 +2,14 @@
 
 ## Inhoudsopgave
 
-* [Opdracht 1.1 Progressive Enhancements](#Opdracht-1-.-1-Progressive-Enhancements)
-  * [JavaScript (volledig)](#JavaScript-(-volledig-))
+* [Opdracht 1 Deel 1 Progressive Enhancements](#Opdracht-1-Deel-1-Progressive-Enhancements)
+  * [JavaScript](#JavaScript)
   * [LocalStorage doet het niet](#LocalStorage-doet-het-niet)
-* [Opdracht 1.2 Features Testen](#Opdracht-1-.-2-Features-Testen)
+* [Opdracht 1 Deel 2 Features Testen](#Opdracht-1-Deel-2-Features-Testen)
 
-## Opdracht 1.1 Progressive Enhancements
+## Opdracht 1 Deel 1 Progressive Enhancements
 
-Voor opdarcht 1.1 moesten we een een groep van 6 personen de volgende features onderzoeken:
+Voor opdracht 1.1 moesten we een een groep van 6 personen de volgende features onderzoeken:
 
 1. Afbeeldingen uitzetten
 2. Custom fonts uitzetten
@@ -27,7 +27,7 @@ Van deze 8 features moest ieder 2 features onderzoeken. Ik heb gekozen voor de v
 
 De links naar de uitwerking van de onderzoeken zijn hieronder te vinden.
 
-### JavaScript (volledig)
+### JavaScript
 
 De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/opdrachten/opdracht-1/deel-1/onderzoek-javascript-uitschakelen.md "Onderzoek: JavaScript (volledig)") te lezen.
 
@@ -35,7 +35,7 @@ De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/
 
 De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/opdrachten/opdracht-1/deel-1/onderzoek-localstorage-doet-het-niet.md "Onderzoek: LocalStorage doet het niet") te lezen.
 
-## Opdracht 1.2 Features Testen
+## Opdracht 1 Deel 2 Features Testen
 
 Bij deze opdarcht moesten we individueel alle 8 features testen op Chrome, Firefox en een andere browser. Daarnaast moesten we ook ons [porject van OBA](https://marjoleinaardewijn.github.io/project-1-1920/ "Project OBA") testen op 3 verschillende devices.
 
