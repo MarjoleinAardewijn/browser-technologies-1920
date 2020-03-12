@@ -22,7 +22,7 @@ Voor opdracht 1.1 moesten we een een groep van 6 personen de volgende features o
 
 Van deze 8 features moest ieder 2 features onderzoeken. Ik heb gekozen voor de volgende twee:
 
-1. JavaScrpt (volledig)
+1. JavaScript (volledig)
 2. LocalStorage doet het niet
 
 De links naar de uitwerking van de onderzoeken zijn hieronder te vinden.
