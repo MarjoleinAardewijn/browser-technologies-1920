@@ -40,3 +40,15 @@ De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/
 Bij deze opdarcht moesten we individueel alle 8 features testen op Chrome, Firefox en een andere browser. Daarnaast moesten we ook ons [porject van OBA](https://marjoleinaardewijn.github.io/project-1-1920/ "Project OBA") testen op 3 verschillende devices.
 
 De uitkomst van deze tests zijn [hier](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/opdrachten/opdracht-1/deel-2/tests.md "Uitkomst tests features") te lezen.
+
+### Screenreader
+
+Een ander onderdeel van deze opdracht was om een screenreader te gebruiken om je website. Hiervoor heb ik de standaar screenreader `VoiceOver` van Apple gebruikt. 
+
+Wat ik erg lastig vond, is dat ik niet automatisch bij de content kon komen, omdat er geen titel was denk ik. Hierdoor zag hij ook de andere content in eerste instantie niet. Pas wanneer ik met de tab ging werken zag hij de items op de overview pagina staan en las hij die voor. Wanneer ik met de tab op een item ging staan zei hij bijv. bij apen: `visited, link, APEN, aap, main`.
+
+Ook zag hij de content van de details pagina niet. Alleen het logo en de back button zag hij. En ook met de tab kon ik er niet bij komen, dit doordat ze niet focussable zijn.
+
+Het is dus zeker de moeite waard om me nog eens extra goed in screenreaders te verdiepen.
+
+
