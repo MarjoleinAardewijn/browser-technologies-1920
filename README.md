@@ -6,6 +6,7 @@
   * [JavaScript](#JavaScript)
   * [LocalStorage doet het niet](#LocalStorage-doet-het-niet)
 * [Opdracht 1 Deel 2 Features Testen](#Opdracht-1-Deel-2-Features-Testen)
+  * [Screenreader](#Screenreader)
 
 ## Opdracht 1 Deel 1 Progressive Enhancements
 
@@ -45,7 +46,7 @@ De uitkomst van deze tests zijn [hier](https://github.com/MarjoleinAardewijn/bro
 
 Een ander onderdeel van deze opdracht was om een screenreader te gebruiken om je website. Hiervoor heb ik de standaar screenreader `VoiceOver` van Apple gebruikt. 
 
-Wat ik erg lastig vond, is dat ik niet automatisch bij de content kon komen, omdat er geen titel was denk ik. Hierdoor zag hij ook de andere content in eerste instantie niet. Pas wanneer ik met de tab ging werken zag hij de items op de overview pagina staan en las hij die voor. Wanneer ik met de tab op een item ging staan zei hij bijv. bij apen: `visited, link, APEN, aap, main`.
+Wat ik erg lastig vond, is dat ik niet automatisch bij de content kon komen, omdat er geen titel was denk ik. Hierdoor zag hij ook de andere content in eerste instantie niet. Pas wanneer ik met de tab ging werken zag hij de items op de overview pagina staan en las hij die voor. Wanneer ik met de tab op een item ging staan zei hij bijv. bij apen: "visited, link, APEN, aap, main".
 
 Ook zag hij de content van de details pagina niet. Alleen het logo en de back button zag hij. En ook met de tab kon ik er niet bij komen, dit doordat ze niet focussable zijn.
 
