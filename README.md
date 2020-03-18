@@ -2,19 +2,19 @@
 
 ## Inhoudsopgave
 
-* [Opdracht 1 Deel 1 Progressive Enhancements](#Opdracht-1-Deel-1-Progressive-Enhancements)
+* [Progressive Enhancements Onderzoeken](#Progressive-Enhancements-Onderzoeken)
   * [JavaScript](#JavaScript)
   * [LocalStorage doet het niet](#LocalStorage-doet-het-niet)
-* [Opdracht 1 Deel 2 Features Testen](#Opdracht-1-Deel-2-Features-Testen)
+* [Features Testen](#Features-Testen)
   * [Screenreader](#Screenreader)
-* [Opdracht 2](#Opdracht-2)
+* [Progressive Enhanced Browser Technologie](#Progressive-Enhanced-Browser-Technologie)
   * [Wireframes](#Wireframes)
   * [Functional layer](#Functional-layer)
   * [Reliable layer](#Reliable-layer)
   * [Usable layer](#Usable-layer)
   * [Pleasurable layer](#Pleasurable-layer)
   
-## Opdracht 1 Deel 1 Progressive Enhancements
+## Progressive Enhancements Onderzoeken
 
 Voor opdracht 1.1 moesten we een een groep van 6 personen de volgende features onderzoeken:
 
@@ -42,7 +42,7 @@ De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/
 
 De uitwerking van dit onderzoek is [hier](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/opdrachten/opdracht-1/deel-1/onderzoek-localstorage-doet-het-niet.md "Onderzoek: LocalStorage doet het niet") te lezen.
 
-## Opdracht 1 Deel 2 Features Testen
+## Features Testen
 
 Bij deze opdarcht moesten we individueel alle 8 features testen op Chrome, Firefox en een andere browser. Daarnaast moesten we ook ons [porject van OBA](https://marjoleinaardewijn.github.io/project-1-1920/ "Project OBA") testen op 3 verschillende devices.
 
@@ -58,7 +58,11 @@ Ook zag hij de content van de details pagina niet. Alleen het logo en de back bu
 
 Het is dus zeker de moeite waard om me nog eens extra goed in screenreaders te verdiepen.
 
-## Opdracht 2
+## Progressive Enhanced Browser Technologie
+
+Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
+
+> Ik wil een enquete kunnen invullen over de minor Web Development, met verschillende antwoord mogelijkheden. Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 ### Wireframes
 
