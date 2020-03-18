@@ -60,31 +60,31 @@ Om JavaScript in Chrome uit te zetten moet je de volgende stappen doorlopen. Als
 
 Ga naar het menu rechtsboven door op het icoontje met de drie stippen onder elkaar te klikken.
 
-![menu icon](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-1.png "Chrome Stap 1 - menu icon")
+![menu icon](https://user-images.githubusercontent.com/23479038/76997969-92d7b180-6954-11ea-8504-c42eef9f6b8e.png "Chrome Stap 1 - menu icon")
 
 **Stap 2**
 
 Kies `Settings`.
 
-![Chrome Stap 2](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-2.png "Chrome Stap 2")
+![Chrome Stap 2](https://user-images.githubusercontent.com/23479038/76997958-8e12fd80-6954-11ea-9744-4772dcd44ccd.png "Chrome Stap 2")
 
 **Stap 3**
 
 Ga onder het kopje `Privacy and security` naar `Site settings`.
 
-![Chrome Stap 3](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-3.png "Chrome Stap 3")
+![Chrome Stap 3](https://user-images.githubusercontent.com/23479038/76998052-b26eda00-6954-11ea-81a9-dd895c57bffe.png "Chrome Stap 3")
 
 **Stap 4**
 
 Ga naar `JavaScript`.
 
-![Chrome Stap 4](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-4.png "Chrome Stap 4")
+![Chrome Stap 4](https://user-images.githubusercontent.com/23479038/76998066-b8fd5180-6954-11ea-9c35-490686b718e3.png "Chrome Stap 4")
 
 **Stap 5**
 
 Zet de switch bij `Allowed (recommended)` uit.
 
-![Chrome Stap 5](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/chrome/chrome-step-2.png "Chrome Stap 5")
+![Chrome Stap 5](https://user-images.githubusercontent.com/23479038/76998088-c4e91380-6954-11ea-83fa-b710b2097821.png "Chrome Stap 5")
 
 
 ## Firefox
@@ -101,19 +101,19 @@ Ga via de navigatiebalk van Firefox naar `about:config`
 
 Aanvaard het risico door op de knop te drukken.
 
-![Firefox Stap 2](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/firefox/firefox-step-2.png "Firefox Stap 2")
+![Firefox Stap 2](https://user-images.githubusercontent.com/23479038/76998226-ff52b080-6954-11ea-9a41-55294a8e2ae4.png "Firefox Stap 2")
 
 **Stap 3**
 
 Type `javascript` in de zoekbalk.
 
-![Firefox Stap 3](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/firefox/firefox-step-3.png "Firefox Stap 3")
+![Firefox Stap 3](https://user-images.githubusercontent.com/23479038/76998234-01b50a80-6955-11ea-8a69-117d430a2631.png "Firefox Stap 3")
 
 **Stap 4**
 
 Dubbelklik op `javascript:enabled` om hem uit te zetten. Als dit goed gaat komt er `false` te staan in plaats van `true`.
 
-![Firefox Stap 4](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/firefox/firefox-step-4.png "Firefox Stap 4")
+![Firefox Stap 4](https://user-images.githubusercontent.com/23479038/76998239-04176480-6955-11ea-9025-2ec5f6cc1cc6.png "Firefox Stap 4")
 
 ## Safari
 
@@ -125,19 +125,19 @@ Bij Safari is JavaScript uitzetten het makkelijkst om te doen. Dit aangezien je 
 
 Ga naar `Safari > Preferences`.
 
-![Safari Stap 1](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/safari/safari-step-1.png "Safari Stap 1")
+![Safari Stap 1](https://user-images.githubusercontent.com/23479038/76998308-2b6e3180-6955-11ea-9146-08a76bb2789e.png "Safari Stap 1")
 
 **Stap 2**
 
 Ga naar de tab `Security`.
 
-![Safari Stap 2](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/safari/safari-step-2.png "Safari Stap 2")
+![Safari Stap 2](https://user-images.githubusercontent.com/23479038/76998320-2e692200-6955-11ea-94fc-51e56d91e3fd.png "Safari Stap 2")
 
 **Stap 3**
 
 Zet het vinkje bij `Web content: Enable JavaScript` uit.
 
-![Safari Stap 3](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/safari/safari-step-3.png "Safari Stap 3")
+![Safari Stap 3](https://user-images.githubusercontent.com/23479038/76998326-2f01b880-6955-11ea-9e86-5389a681d035.png "Safari Stap 3")
 
 ## Andere mogelijkheden voor uitschakelen van JavaScript
 
@@ -155,7 +155,7 @@ Het is lastig om server-side al te controleren of JavaScript is ingeschakeld of 
 
 Alhoewel het af te raden is, kan je dit ook bereiken door inline styles te gebruiken. Zoals in dit voorbeeld van Stack Overflow te zien is:
 
-![Voorbeeld Stack Overflow](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/disable-javascript/stackoverflow-inline-styles-example.png "Voorbeeld Stack Overflow")
+![Voorbeeld Stack Overflow](https://user-images.githubusercontent.com/23479038/76998395-50fb3b00-6955-11ea-8511-6afd2709cbbf.png "Voorbeeld Stack Overflow")
 
 ## Bronnen
 
@@ -228,11 +228,11 @@ Om de LocalStorage ver websites te verwijderen via Firefox moet je de volgende s
 
 3. Ga naar de tab `Storage`.
 
-![Firefox Stap 3](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/clear-localstorage/firefox/firefox-localstorage-step-3.png "Firefox Stap 3")
+![Firefox Stap 3](https://user-images.githubusercontent.com/23479038/76998453-6b351900-6955-11ea-824c-03644d5eb1e6.png "Firefox Stap 3")
 
 4. Ga naar `LocalStorage`.
 
-![Firefox Stap 4](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/clear-localstorage/firefox/firefox-localstorage-step-4.png "Firefox Stap 4")
+![Firefox Stap 4](https://user-images.githubusercontent.com/23479038/76998455-6bcdaf80-6955-11ea-8c2e-6bacef05b4d8.png "Firefox Stap 4")
 
 ### Browser
 
@@ -312,6 +312,10 @@ Bij deze opdarcht moesten we individueel alle 8 features testen op Chrome, Firef
 
 In dit document zijn de bevindingen van de tests van mijn [OBA project](https://marjoleinaardewijn.github.io/project-1-1920/) te zien.
 
+![OBA Overview](https://user-images.githubusercontent.com/23479038/76998898-180f9600-6956-11ea-9aa7-505a9af66b52.png "OBA Overview")
+
+![OBA Details](https://user-images.githubusercontent.com/23479038/76998908-1ba31d00-6956-11ea-9864-cc7ac0847888.png "OBA Details")
+
 ## Test op 3 verschillende devices
 
 ### HTC Nexus 9 (tablet)
@@ -323,6 +327,10 @@ whichbrowser.net rapport:
 
 **Resultaat:** \
 Werkt snel en geen bugs tegengekomen.
+
+![HTC Nexus 9 - Overview](https://user-images.githubusercontent.com/23479038/76999485-fa8efc00-6956-11ea-8200-ee4407d20bf2.jpg "HTC Nexus 9 - Overview")
+
+![HTC Nexus 9 - Details](https://user-images.githubusercontent.com/23479038/76999486-fb279280-6956-11ea-8676-4169694e138c.jpg "HTC Nexus 9 - Details")
 
 ### IPod Touch
 
@@ -336,6 +344,8 @@ Safari/8536.25
 Alle styling valt weg. \
 Router werkt niet > JS werkt waarschijnlijk niet.
 
+![IPod Touch](https://user-images.githubusercontent.com/23479038/76999468-f531b180-6956-11ea-8251-5dba262b15d6.jpg "IPod Touch")
+
 ### Nokia Lumia 620
 
 whichbrowser.net rapport:
@@ -347,6 +357,8 @@ like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/
 **Resultaat:** \
 Bijna alle styling valt weg. \
 Router werkt niet > JS werkt waarschijnlijk niet.
+
+![Nokia Lumia 620](https://user-images.githubusercontent.com/23479038/76999478-f95dcf00-6956-11ea-818c-c3ba125816cb.jpg "Nokia Lumia 620")
 
 ## Browser Tests
 
@@ -369,7 +381,7 @@ Layout ziet eruit zoals het zou moeten zijn en is goed responsive.
 
 Op Firefox hebben de cards op de details pagina nog een backface.
 
-![Firefox Layout Card Backface Bug](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/tests/oba-test-firefox-layout.png "OBA test - Card Backface Bug")
+![Firefox Layout Card Backface Bug](https://user-images.githubusercontent.com/23479038/76998533-8bfd6e80-6955-11ea-8e85-7211ce63ca6c.png "OBA test - Card Backface Bug")
 
 **Oplossing:** \
 Om dit op te lossen door `transform: rotateY(0deg);` toe te voegen aan de properties van de class `book-front`.
@@ -429,11 +441,11 @@ gebruikt voor Chrome en voor Firefox en Safari heb ik heb via de instellingen ui
 Wanneer ik de images disable bij mijn OBA site blijft de structuur intact en laat hij mooi alle alt attributen zichtbaar 
 worden op de overview pagina. Maar hier kan je wel zien dat ik een alt attribuut op het logo ben vergeten.
 
-![Overview Page No Images](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/tests/oba-test-no-images-overview.png "OBA test - No Images: Overview Page")
+![Overview Page No Images](https://user-images.githubusercontent.com/23479038/76998543-915ab900-6955-11ea-9489-f583c6d2eb5d.png "OBA test - No Images: Overview Page")
 
 Maar op de details pagina zie je dat er geen alt attributen op de afbeeldingen staan.
 
-![Details Page No Images](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/tests/oba-test-no-images-details.png "OBA test - No Images: Details Page")
+![Details Page No Images](https://user-images.githubusercontent.com/23479038/76998540-90c22280-6955-11ea-9246-4c73ffb5b7cf.png "OBA test - No Images: Details Page")
 
 **Oplossing:** \
 Zorgen dat op alle afbeeldingen alt attributen staan.
@@ -461,7 +473,7 @@ Onbekend.
 
 Wanneer ik de cunstom fonts uitzet zie je dat bij de terug knop op de details pagina de back icon verdwijnt.
 
-![Details No Back Icon](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/images/tests/oba-test-custom-fonts-no-back-icon.png "OBA test -No Back Icon")
+![Details No Back Icon](https://user-images.githubusercontent.com/23479038/76998531-8b64d800-6955-11ea-9f34-73b4e0fe135d.png "OBA test -No Back Icon")
 
 **Oplossing:** \
 Geen fontawseome gebruiken en icon vervangen voor eigen SVG.
