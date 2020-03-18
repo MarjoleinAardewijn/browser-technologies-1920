@@ -74,7 +74,7 @@ In de wireframes is deze laag de eerste twee flows (HTML & CSS).
 
 ### Reliable layer
 
-Ook om ervoor te zorgen dat er zo min mogelijk fetch request gedaan hoeven te worden heb ik ervoor gekozen in get design om alle vragen op één pagina te laden. Op deze manier is er in eerste instantie alleen nog fetch requests nodig voor het ophalen van de vragen en voor het submitten.
+Ook om ervoor te zorgen dat er zo min mogelijk fetch request gedaan hoeven te worden heb ik ervoor gekozen om alle vragen op één pagina te laden. Op deze manier zijn er in eerste instantie alleen nog fetch requests nodig voor het ophalen van de vragen en voor het submitten. En zal de gebruiker zo min mogelijk last hebben van bijvoorbeeld een traag netwerk.
 
 ### Usable layer
 
