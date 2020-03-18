@@ -29,7 +29,7 @@ Van deze 8 features moest ieder 2 features onderzoeken. Ik heb gekozen voor de v
 1. JavaScript (volledig)
 2. LocalStorage doet het niet
 
-De links naar de uitwerking van de onderzoeken zijn hieronder te vinden.
+De uitwerking van de onderzoeken zijn hieronder te lezen.
 
 ### JavaScript
 
