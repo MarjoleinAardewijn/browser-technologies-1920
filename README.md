@@ -523,31 +523,26 @@ Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 
 ### Opbouw van de lagen
 <details>
- <summary>Functional layer</summary>
+ <summary>Functional en Reliable layer</summary>
 
 Ik zal symantische HTML schrijven, zodat hierdoor al een hoop mensen goed gebruik kunnen maken van de site. Daarbij houd ik rekening met o.a. mensen die geen muis kunnen/ willen gebruiken en blinde en slechtziende mensen die gebruik maken van screenreaders.
 
-In deze laag zal ik de basis CSS inladen die cross-browser ondersteund wordt. Ook zal ik hier geen gebruik maken van JavaScript die Client side wordt gerendered. Om ervoor te zorgen dat de basis functionaliteiten zoals het submitten van de antwoorden werkt zal dit op de server verwerkt worden.
+In deze laag zal ik de basis CSS inladen die cross-browser ondersteund wordt. Om ervoor te zorgen dat de basis functionaliteiten zoals het submitten van de antwoorden werkt zal ik ervoor zorgen dat dit op de server wordt verwerkt.
 
 In de wireframes is deze laag de eerste twee flows (HTML & CSS).
-</details>
-
-<details>
- <summary>Reliable layer</summary>
- 
-Verder zal ik hier ook gebruik gaan maken van CSS properties zoals `flex` en `box-shadow` toevoegen. Waarbij ik gebruik zal maken van de CSS feature detection in de browser door de `@supports` rule te gebruiken om te controleren of een browser een bepaalde CSS property ondersteund.
-</details>
 
 <details>
  <summary>Usable layer</summary>
 
-Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in de enquête zal ik alle data in een json file wegschrijven. Zodat dit ook voor mensen die cookies hebben uitgeschakeld te gebruiken is.
+In deze laag zal ik de CSS meer uitbreiden door gebruik te maken van CSS properties zoals `flex` en `box-shadow`. Hierbij zal ik gebruik maken van de CSS feature detection in de browser door de `@supports` rule te gebruiken om te controleren of een browser een bepaalde CSS property ondersteund.
+
+Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in de enquête zal ik alle data in de url wegschrijven wanneer de gebruiker het opslaat of naar de volgende pagina gaat. Zodat dit ook voor mensen die cookies hebben uitgeschakeld te gebruiken is.
 </details>
 
 <details>
  <summary>Pleasurable layer</summary>
 
-In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook wil ik hier een progress bar toevoegen met JavaScript om de voortgang van de gebruiker op een meer visuele manier te tonen.
+In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook wil ik hier een progress bar toevoegen met JavaScript om de voortgang van de gebruiker op een meer visuele manier te tonen. En daarbij ook het aantrekkelijker maken door pagination toe te voegen, waardoor er elke keer maar 1 vraag zichtbaar is.
 
 Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken in plaats van alles wegschrijven naar een json bestand.
 </details>
