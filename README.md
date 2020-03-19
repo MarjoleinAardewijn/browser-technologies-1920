@@ -519,7 +519,7 @@ Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 
 ### Wireframes
 
-![Wireframes](https://user-images.githubusercontent.com/23479038/76976061-b3dbda80-6933-11ea-8a82-177809051bac.jpg "Wireframes")
+![Wireframes](https://user-images.githubusercontent.com/23479038/77057540-66fc1080-69d4-11ea-87d1-49fb63bd1999.jpg "Wireframes")
 
 ### Opbouw van de lagen
 <details>
@@ -534,22 +534,20 @@ In de wireframes is deze laag de eerste twee flows (HTML & CSS).
 
 <details>
  <summary>Reliable layer</summary>
-
-Ook om ervoor te zorgen dat er zo min mogelijk fetch request gedaan hoeven te worden heb ik ervoor gekozen om alle vragen op één pagina te laden. Op deze manier zijn er in eerste instantie alleen nog fetch requests nodig voor het ophalen van de vragen en voor het submitten. En zal de gebruiker zo min mogelijk last hebben van bijvoorbeeld een traag netwerk.
+ 
+Verder zal ik hier ook gebruik gaan maken van CSS properties zoals `flex` en `box-shadow` toevoegen. Waarbij ik gebruik zal maken van de CSS feature detection in de browser door de `@supports` rule te gebruiken om te controleren of een browser een bepaalde CSS property ondersteund.
 </details>
 
 <details>
  <summary>Usable layer</summary>
 
-In deze laag zal ik ervoor zorgen dat in de cache (mbv cookies) de antwoorden, wanneer ze worden ingevuld, worden opgeslagen. Dit zal ervoor zorgen dat wanneer gebruikers stoppen ze later weer verder kunnen waar ze waren gebleven.
-
-Verder zal ik hier ook gebruik gaan maken van CSS properties zoals `flex` en `box-shadow` toevoegen. Waarbij ik gebruik zal maken van de CSS fetaure detection in browser door de `@supports` feature te gebruiken om te controleren of een browser een bepaalde CSS property ondersteund.
+Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in de enquête zal ik alle data in een json file wegschrijven. Zodat dit ook voor mensen die cookies hebben uitgeschakeld te gebruiken is.
 </details>
 
 <details>
  <summary>Pleasurable layer</summary>
 
-In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook zal ik hier met JavaScript ervoor zorgen wanneer een gebruiker een antwoord invuld hij/zij automatisch naar de volgende vraag gaat. Daarnaast zal ik ook bij de vragen die beantwoord zijn een vinkje zetten om op deze manier feedback aan de gebruiker terug te geven.
+In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook wil ik hier een progress bar toevoegen met JavaScript om de voortgang van de gebruiker op een meer visuele manier te tonen.
 
 Verder wil ik hier ook nog een loading state instellen.
 </details>
