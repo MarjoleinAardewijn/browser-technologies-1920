@@ -543,7 +543,8 @@ Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in
 <details>
  <summary>Pleasurable layer</summary>
 
-In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook wil ik hier een progress bar toevoegen met JavaScript om de voortgang van de gebruiker op een meer visuele manier te tonen. En daarbij ook het aantrekkelijker maken door pagination toe te voegen, waardoor er elke keer maar 1 vraag zichtbaar is.
+In deze laag zal ik gebruik maken van animations en andere CSS features die misschien niet op alle browsers worden ondersteund. Ook wil ik hier een progress bar toevoegen met JavaScript om de voortgang van de gebruiker op een meer visuele manier te tonen. En daarbij ook het 
+aantrekkelijker maken door pagination toe te voegen, waardoor er elke keer maar 1 vraag zichtbaar is. En verder wil ik er hier nog voor zorgen dat buttons naar de volgende pagina pas clickable zijn wanneer de input field op die "pagina" zijn ingevuld.
 
 Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken in plaats van alles wegschrijven naar een json bestand.
 </details>
