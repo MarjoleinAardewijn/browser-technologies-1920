@@ -1,10 +1,10 @@
 const express = require('express'),
     globalConfig = require('./config'),
-    fs = require("./modules/helpers/fs"),
+    fileSystem = require("./modules/helpers/file-system"),
     urlStorage = require("./modules/helpers/url-storage"),
     answersFile = require("./answers"),
-    questions = require('./modules/data/questions'),
-    questionsData = questions.questions,
+    questions = require('./modules/data'),
+    questionsData = questions.data,
     app = express(),
     config = {
         port: globalConfig.port
@@ -36,7 +36,7 @@ app
     })
 
     .get('/thanks', function(req, res) {
-        fs.writeAnswersToJsonFile(answersFile, req.query);
+        fileSystem.writeAnswersToJsonFile(answersFile, req.query);
 
         res.render('thanks', {
             title: 'Thanks!'

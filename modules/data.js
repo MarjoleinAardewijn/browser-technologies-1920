@@ -1,4 +1,4 @@
-const questions = [
+const data = [
     {
         id: 1,
         name: "q1",
@@ -101,4 +101,4 @@ const questions = [
     }
 ];
 
-module.exports = { questions };
+module.exports = { data };

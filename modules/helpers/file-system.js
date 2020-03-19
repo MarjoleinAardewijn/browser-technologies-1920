@@ -1,4 +1,4 @@
-const fs = require('modules/helpers/fs');
+const fs = require('fs');
 
 function writeAnswersToJsonFile(file, query) {
     let answer = {
