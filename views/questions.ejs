@@ -1,0 +1,50 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+
+<h1><%= title %></h1>
+<form action="/thanks">
+    <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>" hidden>
+    <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>" hidden>
+    <%questionsData.map(item => { %>
+        <fieldset>
+            <legend><%= item.question %></legend>
+            <%for(let value in item.options){ %>
+            <label>
+                <input type="radio" name="q<%= item.id %>" value="<%= value %>"
+                    <% if ( item.name == "q1" && queries.q1 == value ) { %>
+                       checked
+                    <% } else if (item.name == "q2" && queries.q2 == value) { %>
+                       checked
+                    <% } else if (item.name == "q3" && queries.q3 == value) { %>
+                       checked
+                    <% } else if (item.name == "q4" && queries.q4 == value) { %>
+                       checked
+                    <% } else if (item.name == "q5" && queries.q5 == value) { %>
+                       checked
+                    <% } else if (item.name == "q6" && queries.q6 == value) { %>
+                       checked
+                    <% } else if (item.name == "q7" && queries.q7 == value) { %>
+                       checked
+                    <% } else if (item.name == "q8" && queries.q8 == value) { %>
+                       checked
+                    <% } else if (item.name == "q9" && queries.q9 == value) { %>
+                       checked
+                    <% } else if (item.name == "q10" && queries.q10 == value) { %>
+                       checked
+                    <% }%>
+                >
+                <%= item.options[value] %>
+            </label>
+            <br>
+            <% } %>
+        </fieldset>
+    <% });%>
+<!--        <input type="button" value="Go back!" onclick="history.back()">-->
+    <br>
+    <button type="submit" formaction="/">Terug</button>
+    <button type="submit" formaction="/questions">Opslaan</button>
+    <button type="submit">Verstuur</button>
+
+</form>
+
+<%- include('partials/footer') %>

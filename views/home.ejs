@@ -2,6 +2,17 @@
 
 <h1><%= title %></h1>
 <p>enquête</p>
-<button type="button">Start</button>
+
+<form action="/questions">
+    <label for="firstname">Voornaam:
+        <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>">
+    </label>
+    <br>
+    <label for="lastname">Achternaam:
+        <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>">
+    </label>
+    <br>
+    <button type="submit">Start</button>
+</form>
 
 <%- include('partials/footer') %>
