@@ -4,6 +4,7 @@ const express = require('express'),
     urlStorage = require("./modules/helpers/url-storage"),
     answersFile = require("./answers"),
     questions = require('./modules/data'),
+    render = require("./modules/render"),
     questionsData = questions.data,
     app = express(),
     config = {
@@ -18,29 +19,20 @@ app
     .use(express.static('static'))
 
     .get('/', function(req, res) {
-        let queries = urlStorage.setUrlStorageQuestionsForm(req.query);
+        let queries = urlStorage.urlStorageFromForm(req.query);
 
-        res.render('home', {
-            title: 'Minor Web Development',
-            queries
-        })
+        render.homePage(res, queries);
     })
     .get('/questions', function(req, res) {
-        let queries = urlStorage.setUrlStorageHomeForm(req.query);
+        let queries = urlStorage.urlStorageFromForm(req.query);
 
-        res.render('questions', {
-            title: 'Questions',
-            questionsData,
-            queries
-        })
+        render.questionsOverview(res, questionsData, queries);
     })
 
     .get('/thanks', function(req, res) {
         fileSystem.writeAnswersToJsonFile(answersFile, req.query);
 
-        res.render('thanks', {
-            title: 'Thanks!'
-        })
+        render.basicPage(res, 'thanks', 'Thanks!');
     })
 
     .listen(config.port, function() {

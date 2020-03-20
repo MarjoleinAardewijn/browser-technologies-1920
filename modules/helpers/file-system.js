@@ -20,7 +20,7 @@ function writeAnswersToJsonFile(file, query) {
 
     file.push(answer);
 
-    fs.writeFile("answers.json", JSON.stringify(file), err => {
+    fs.writeFile("answers.json", JSON.stringify(file, null, 2), err => {
         if (err) throw err;
 
         console.log("Done writing"); // Success

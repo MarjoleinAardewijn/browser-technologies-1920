@@ -1,17 +1,4 @@
-function setUrlStorageHomeForm(query) {
-    let queries = {
-        firstname: "",
-        lastname: ""
-    };
-
-    if (Object.entries(query).length > 0) {
-        queries = query;
-    }
-
-    return queries;
-}
-
-function setUrlStorageQuestionsForm(query) {
+function urlStorageFromForm(query) {
     let queries = {
         firstname: "",
         lastname: "",
@@ -34,4 +21,4 @@ function setUrlStorageQuestionsForm(query) {
     return queries;
 }
 
-module.exports = { setUrlStorageHomeForm, setUrlStorageQuestionsForm };
+module.exports = { urlStorageFromForm };

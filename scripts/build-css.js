@@ -15,3 +15,13 @@ return gulp.src([
         cascade: false
     }))
     .pipe(gulp.dest('./static/css/'));
+
+// return gulp.src([
+//     './src/css/index.css',
+// ])
+//     .pipe(concat('index.css'))
+//     .pipe(cleanCSS())
+//     .pipe(autoprefixer({
+//         cascade: false
+//     }))
+//     .pipe(gulp.dest('./static/css/'));
