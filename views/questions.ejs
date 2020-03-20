@@ -5,9 +5,9 @@
 <form action="/thanks">
     <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>" hidden>
     <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>" hidden>
-    <%questionsData.map(item => { %>
+    <%data.map(item => { %>
         <fieldset>
-            <legend><%= item.question %></legend>
+            <legend><%= item.question %> <span><%= item.id%> van 10</span></legend>
             <%for(let value in item.options){ %>
             <label>
                 <input type="radio" name="q<%= item.id %>" value="<%= value %>"
@@ -39,7 +39,6 @@
             <% } %>
         </fieldset>
     <% });%>
-<!--        <input type="button" value="Go back!" onclick="history.back()">-->
     <br>
     <button type="submit" formaction="/">Terug</button>
     <button type="submit" formaction="/questions">Opslaan</button>
