@@ -19,7 +19,7 @@ Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 
 ### Wireframes
 
-![Wireframes](https://user-images.githubusercontent.com/23479038/77057540-66fc1080-69d4-11ea-87d1-49fb63bd1999.jpg "Wireframes")
+![Wireframes](https://user-images.githubusercontent.com/23479038/77156346-82801d80-6a9f-11ea-8855-3633ff8c9369.jpg "Wireframes")
 
 ### Opbouw van de lagen
 <details>
