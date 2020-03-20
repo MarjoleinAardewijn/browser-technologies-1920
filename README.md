@@ -2,11 +2,16 @@
 
 ## Inhoudsopgave
 
-* [Use Case](#Use-Case)
+* [Opdracht 1](#Opdracht-1)
+* [Opdracht 2](#Opdracht-2)
   * [Wireframes](#Wireframes)
   * [Opbouw van de lagen](#Opbouw-van-de-lagen)
 
-## Use Case
+## Opdracht 1
+
+De uitwerking van opdracht 1 is te zien in mijn [wiki](https://github.com/MarjoleinAardewijn/browser-technologies-1920/wiki "Wiki").
+
+## Opdracht 2
 
 Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 
