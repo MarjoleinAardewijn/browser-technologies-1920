@@ -13,6 +13,8 @@ Graag zou ik feedback willen ontvangen over de volgende punten:
 * [Opdracht 2](#Opdracht-2)
   * [Wireframes](#Wireframes)
   * [Opbouw van de lagen](#Opbouw-van-de-lagen)
+* [Live Demo](#Live-Demo)
+* [Licence](#Licence)
 
 ## Opdracht 1
 
@@ -52,3 +54,14 @@ In deze laag zal ik gebruik maken van animations en andere CSS features die miss
 
 Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken in plaats van alles wegschrijven naar een json bestand.
 </details>
+
+## Live Demo
+
+The live demo of the app can be found here:
+[Live Demo Link](https://boiling-gorge-63096.herokuapp.com/)
+
+## Licence
+
+[MIT License](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/LICENSE.txt).
+
+Copyright (c) 2020 Marjolein Aardewijn
