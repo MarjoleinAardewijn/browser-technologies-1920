@@ -28,8 +28,6 @@ Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 Ik zal symantische HTML schrijven, zodat hierdoor al een hoop mensen goed gebruik kunnen maken van de site. Daarbij houd ik rekening met o.a. mensen die geen muis kunnen/ willen gebruiken en blinde en slechtziende mensen die gebruik maken van screenreaders.
 
 In deze laag zal ik de basis CSS inladen die cross-browser ondersteund wordt. Om ervoor te zorgen dat de basis functionaliteiten zoals het submitten van de antwoorden werkt zal ik ervoor zorgen dat dit op de server wordt verwerkt.
-
-In de wireframes is deze laag de eerste twee flows (HTML & CSS).
 </details>
 
 <details>
