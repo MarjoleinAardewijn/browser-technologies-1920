@@ -1,0 +1,25 @@
+.form fieldset {
+    position: relative;
+    padding: 16px 0; /* Fallback */
+    padding: 1rem 0;
+    margin: 8px 0; /* Fallback */
+    margin: 0.5rem 0;
+    background-color: #F5F5F5; /* Fallback */
+    background-color: var(--light-gray);
+}
+
+.form fieldset legend {
+    padding: 24px 16px 0 16px; /* Fallback */
+    padding: 1.5rem 1rem 0 1rem;
+    background-color: #F5F5F5; /* Fallback */
+    background-color: var(--light-gray);
+    width: 100%;
+}
+
+.form fieldset p {
+    position: absolute;
+    top: 8px; /* Fallback */
+    top: 0.5rem;
+    right: 8px; /* Fallback */
+    right: 0.5rem;
+}

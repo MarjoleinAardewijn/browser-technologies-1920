@@ -8,6 +8,7 @@ return gulp.src([
     './src/css/reset.css',
     './src/css/typography.css',
     './src/css/index.css',
+    './src/css/components/*.css'
 ])
     .pipe(concat('index.css'))
     .pipe(cleanCSS())
@@ -15,13 +16,3 @@ return gulp.src([
         cascade: false
     }))
     .pipe(gulp.dest('./static/css/'));
-
-// return gulp.src([
-//     './src/css/index.css',
-// ])
-//     .pipe(concat('index.css'))
-//     .pipe(cleanCSS())
-//     .pipe(autoprefixer({
-//         cascade: false
-//     }))
-//     .pipe(gulp.dest('./static/css/'));
