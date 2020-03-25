@@ -118,3 +118,10 @@ button,
          padding: 0;
     }
 }
+
+@supports (border-radius: 4px) {
+    button,
+    .button {
+        border-radius: 4px;
+    }
+}
