@@ -9,12 +9,17 @@ Graag zou ik feedback willen ontvangen over de volgende punten:
 
 ## Inhoudsopgave
 
+* [Live Demo](#Live-Demo)
 * [Opdracht 1](#Opdracht-1)
 * [Opdracht 2](#Opdracht-2)
   * [Wireframes](#Wireframes)
   * [Opbouw van de lagen](#Opbouw-van-de-lagen)
-* [Live Demo](#Live-Demo)
 * [Licence](#Licence)
+
+## Live Demo
+
+The live demo of the app can be found here:
+[Live Demo Link](https://boiling-gorge-63096.herokuapp.com/)
 
 ## Opdracht 1
 
@@ -37,14 +42,14 @@ Voor deze opdracht heb ik gekozen om de volgende use case uit te werken:
 Ik zal symantische HTML schrijven, zodat hierdoor al een hoop mensen goed gebruik kunnen maken van de site. Daarbij houd ik rekening met o.a. mensen die geen muis kunnen/ willen gebruiken en blinde en slechtziende mensen die gebruik maken van screenreaders.
 
 In deze laag zal ik de basis CSS inladen die cross-browser ondersteund wordt. Om ervoor te zorgen dat de basis functionaliteiten zoals het submitten van de antwoorden werkt zal ik ervoor zorgen dat dit op de server wordt verwerkt.
+
+Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in de enquête zal ik alle data in de url wegschrijven wanneer de gebruiker het opslaat of naar de volgende pagina gaat. Zodat dit ook voor mensen die cookies hebben uitgeschakeld te gebruiken is.
 </details>
 
 <details>
  <summary>Usable layer</summary>
 
 In deze laag zal ik de CSS meer uitbreiden door gebruik te maken van CSS properties zoals `flex` en `box-shadow`. Hierbij zal ik gebruik maken van de CSS feature detection in de browser door de `@supports` rule te gebruiken om te controleren of een browser een bepaalde CSS property ondersteund.
-
-Om ervoor te zorgen dat de gebruiker later door kan waar hij/zij was gebleven in de enquête zal ik alle data in de url wegschrijven wanneer de gebruiker het opslaat of naar de volgende pagina gaat. Zodat dit ook voor mensen die cookies hebben uitgeschakeld te gebruiken is.
 </details>
 
 <details>
@@ -54,11 +59,6 @@ In deze laag zal ik gebruik maken van animations en andere CSS features die miss
 
 Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken in plaats van alles wegschrijven naar een json bestand.
 </details>
-
-## Live Demo
-
-The live demo of the app can be found here:
-[Live Demo Link](https://boiling-gorge-63096.herokuapp.com/)
 
 ## Licence
 
