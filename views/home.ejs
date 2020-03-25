@@ -1,18 +1,23 @@
 <%- include('partials/head') %>
 
-<h1><%= title %></h1>
-<p>enquête</p>
+<main>
+    <div class="title">
+        <h1><%= title %></h1>
+        <p class="sub-title">enquête</p>
+    </div>
 
-<form action="/questions">
-    <label for="firstname">Voornaam:
-        <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>">
-    </label>
-    <br>
-    <label for="lastname">Achternaam:
-        <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>">
-    </label>
-    <br>
-    <button type="submit">Start</button>
-</form>
+    <form action="/questions" class="form form-name">
+        <label for="firstname">Voornaam:
+            <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>">
+        </label>
+        <br>
+        <label for="lastname">Achternaam:
+            <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>">
+        </label>
+        <div class="links">
+            <button type="submit">Start</button>
+        </div>
+    </form>
+</main>
 
 <%- include('partials/footer') %>

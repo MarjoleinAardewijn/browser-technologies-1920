@@ -21,18 +21,24 @@ app
     .get('/', function(req, res) {
         let queries = urlStorage.urlStorageFromForm(req.query);
 
-        render.homePage(res, queries);
+        render.home(res, queries);
     })
     .get('/questions', function(req, res) {
         let queries = urlStorage.urlStorageFromForm(req.query);
 
-        render.questionsOverview(res, questionsData, queries);
+        render.questions(res, questionsData, queries);
+    })
+
+    .get('/save', function(req, res) {
+        let destination = urlStorage.getSaveUrl(req, "save", "questions");
+
+        render.save(res, 'Saved!', destination);
     })
 
     .get('/thanks', function(req, res) {
         fileSystem.writeAnswersToJsonFile(answersFile, req.query);
 
-        render.basicPage(res, 'thanks', 'Thanks!');
+        render.basic(res, 'thanks', 'Thanks!');
     })
 
     .listen(config.port, function() {

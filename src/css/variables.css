@@ -1,5 +1,6 @@
 :root {
-    --light: #F5F5F5;
+    --light: #FFF;
     --dark: #333;
-    --font-primary: Roboto, sans-serif;
+    --light-gray: #F5F5F5;
+    --font: Helvetica, sans-serif;
 }

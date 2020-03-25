@@ -1,0 +1,31 @@
+body {
+    background-color: #FFF; /* Fallback */
+    background-color: var(--light);
+}
+
+.title {
+    margin: 16px; /* Fallback */
+    margin: 1rem;
+}
+
+.content {
+    margin: 8px 16px; /* Fallback */
+    margin: 0.5rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .content {
+        margin: 48px 16px; /* Fallback */
+        margin: 3rem 1rem;
+    }
+
+    .title {
+        margin-top: 48px; /* Fallback */
+        margin-top: 3rem;
+    }
+}

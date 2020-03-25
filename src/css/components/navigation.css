@@ -1,0 +1,8 @@
+nav {
+    padding: 12px; /* Fallback */
+    padding: 0.75rem;
+    background-color: #333; /* Fallback */
+    background-color: var(--dark);
+    color: #FFF; /* Fallback */
+    color: var(--light);
+}

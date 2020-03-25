@@ -28,6 +28,7 @@ time, mark, audio, video {
 }
 
 html {
+    color: #333; /* Fallback */
     color: var(--dark);
 }
 
@@ -43,18 +44,6 @@ body {
 
 ol, ul {
     list-style: none;
-}
-
-blockquote, q {
-    quotes: none;
-}
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-    content: '';
-    content: none;
 }
 
 table {
