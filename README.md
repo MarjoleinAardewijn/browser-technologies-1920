@@ -14,6 +14,8 @@ Graag zou ik feedback willen ontvangen over de volgende punten:
 * [Opdracht 2](#Opdracht-2)
   * [Wireframes](#Wireframes)
   * [Opbouw van de lagen](#Opbouw-van-de-lagen)
+* [Sources](#Sources)
+* [Credits](#Credits)
 * [Licence](#Licence)
 
 ## Live Demo
