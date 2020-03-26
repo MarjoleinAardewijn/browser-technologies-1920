@@ -8,35 +8,12 @@ form {
     margin-bottom: 3rem;
 }
 
-.form-name input {
-    border-bottom: 2px solid #333; /* Fallback */
-    border-bottom: 2px solid var(--dark);
-    padding: 8px; /* Fallback */
-    padding: 0.5rem;
-}
-
-button,
-.button {
-    padding: 8px 16px; /* Fallback */
-    padding: 0.5rem 1rem;
-    color: #FFF; /* Fallback */
-    color: var(--light);
-    background-color: #333; /* Fallback */
-    background-color: var(--dark);
-}
-
-.button {
-    display: inline-block;
-    text-align: center;
-}
-
-.form,
 .links {
     text-align: center;
 }
 
-.form-name button {
-    width: 100%;
+form .links {
+    left: 0;
 }
 
 .links {
@@ -47,74 +24,41 @@ button,
     padding: 0.5rem;
 }
 
-.links.links-full-width .button {
-    width: 100%;
-}
-
-.form-name .links {
-    left: 0;
-}
-
 .form-questions .links {
     position: fixed;
-    left: 0;
     background-color: #FFF;
-}
-
-.form-questions .links button {
-    width: 32%;
-    padding: 8px 0; /* Fallback */
-    padding: 0.5rem 0;
-}
-
-.links .button-right {
-    float: right;
-}
-
-.links .button-left {
-    float: left;
-}
-
-.links .button-left,
-.links .button-right {
-    width: 49%;
+    background-color: var(--light);
 }
 
 @media only screen and (min-width: 768px) {
+    .questions {
+        margin-bottom: 32px; /* Fallback */
+        margin-bottom: 2rem;
+    }
+
     .form-name,
     .form-name .links {
         margin-top: 48px; /* Fallback */
         margin-top: 3rem;
     }
 
-    .form-name button,
-    .links .button-left,
-    .links .button-right,
-    .links.links-full-width .button {
-        width: 25%;
-    }
-
-    .links .button-left,
-    .links .button-right {
-        float: none;
-        margin: 8px; /* Fallback */
-        margin: 0.5rem;
+    .links {
+        position: relative;
+        bottom: unset;
+        width: 100%;
+        padding: 0;
     }
 
     .form-questions .links {
-         position: relative;
-         left: unset;
-         background-color: transparent;
+        position: relative;
+        left: unset;
+        background-color: transparent;
     }
+}
 
-    .form-questions .links button {
-        width: 25%;
-    }
-
-    .links {
-         position: relative;
-         bottom: unset;
-         width: 100%;
-         padding: 0;
+@supports (display: flex) {
+    .flex-links {
+        display: flex;
+        justify-content: space-between;
     }
 }

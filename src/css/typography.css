@@ -8,14 +8,15 @@ h1 {
     font-family: var(--font);
     font-size: 24px; /* Fallback */
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 10px;
+    line-height: 1;
 }
 
 body {
     font-size: 16px; /* Fallback */
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 18px; /* Fallback */
     line-height: 1.125;
     margin-bottom: 5px;
@@ -25,25 +26,29 @@ body {
     text-align: center;
 }
 
-.sub-title {
-    text-transform: uppercase;
-}
-
+.sub-title,
+nav a,
 button,
-a {
-    font-size: 16px; /* Fallback */
-    font-size: 1em;
-    font-weight: 600;
+a,
+.form-group label {
+    line-height: 1;
     text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
-nav a {
-    text-transform: unset;
+nav a,
+button,
+a,
+.form-group label {
+    font-size: 12px; /* Fallback */
+    font-size: 0.75em;
+    font-weight: 600;
 }
 
 .text-progress {
     font-size: 12px; /* Fallback */
     font-size: 0.75em;
+    text-align: right;
 }
 
 input {
@@ -55,14 +60,22 @@ input {
     text-align: center;
 }
 
+label {
+    text-align: start;
+}
+
+legend {
+    font-weight: 600;
+}
+
+.radio input + span {
+    line-height: 24px; /* Fallback */
+    line-height: 1.5rem;
+}
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 36px; /* Fallback */
         font-size: 2em;
-    }
-
-    .sub-title {
-        font-size: 24px; /* Fallback */
-        font-size: 1.5em;
     }
 }
