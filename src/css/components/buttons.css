@@ -1,0 +1,57 @@
+button,
+.button {
+    padding: 8px 16px; /* Fallback */
+    padding: 0.5rem 1rem;
+    color: #FFF; /* Fallback */
+    color: var(--light);
+    background-color: #2979ff; /* Fallback */
+    background-color: var(--blue-400-A);
+    border: none;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+}
+
+.links button.full-width-button,
+.links .button.full-width-button {
+    width: 100%;
+}
+
+.links button.button-3 {
+    width: 32%;
+    padding: 8px 0; /* Fallback */
+    padding: 0.5rem 0;
+}
+
+.links .button-2 {
+    width: 49%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .links button,
+    .links .button,
+    .links button.full-width-button,
+    .links .button.full-width-button,
+    .links button.button-3,
+    .links .button.button-3,
+    .links button.button-2,
+    .links .button.button-2 {
+        width: 25%;
+    }
+
+    .links button,
+    .links .button {
+        margin: 8px; /* Fallback */
+        margin: 0.5rem;
+    }
+}
+
+@supports (border-radius: 4px) {
+    button,
+    .button {
+        border-radius: 4px;
+    }
+}

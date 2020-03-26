@@ -1,8 +1,15 @@
 nav {
     padding: 12px; /* Fallback */
     padding: 0.75rem;
-    background-color: #333; /* Fallback */
-    background-color: var(--dark);
+    background-color: #2979ff; /* Fallback */
+    background-color: var(--blue-400-A);
     color: #FFF; /* Fallback */
     color: var(--light);
+}
+
+@supports (box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)) {
+    nav {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); /* Fallback */
+        box-shadow: var(--box-shadow);
+    }
 }
