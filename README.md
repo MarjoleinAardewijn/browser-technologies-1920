@@ -74,6 +74,8 @@ Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken i
 
 ## Credits
 
+- [Form styling](https://codepen.io/andytran/pen/GpyKLM/)
+
 ## Licence
 
 [MIT License](https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/LICENSE.txt).
