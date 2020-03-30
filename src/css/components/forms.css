@@ -30,6 +30,36 @@ form .links {
     background-color: var(--light);
 }
 
+/* Input fields */
+.form-group {
+    margin: 0 0 20px;
+}
+
+.form-group:last-child {
+    margin: 0;
+}
+
+.form-group label {
+    margin: 0 0 10px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-group input {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 0;
+    padding: 8px 16px;
+    margin-top: 8px; /* Fallback */
+    margin-top: 0.5rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-group input:focus {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Tablet / Desktop */
 @media only screen and (min-width: 768px) {
     .questions {
         margin-bottom: 32px; /* Fallback */
@@ -60,5 +90,18 @@ form .links {
     .flex-links {
         display: flex;
         justify-content: space-between;
+    }
+
+    .form-group {
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+
+    .form-group input {
+        box-sizing: border-box;
+        border-radius: 4px;
     }
 }

@@ -1,28 +1,12 @@
-body {
-    font-family: Helvetica, sans-serif; /* Fallback */
-    font-family: var(--font);
-}
-
-h1 {
-    font-family: Helvetica, sans-serif; /* Fallback */
-    font-family: var(--font);
-    font-size: 24px; /* Fallback */
-    font-size: 1.5em;
-    font-weight: 500;
-    margin-bottom: 10px;
-    line-height: 1;
-}
-
-body {
+body,
+input {
     font-size: 16px; /* Fallback */
     font-size: 1em;
-    font-weight: 500;
-    line-height: 18px; /* Fallback */
-    line-height: 1.125;
-    margin-bottom: 5px;
 }
 
-.title {
+.title,
+.content,
+#progress {
     text-align: center;
 }
 
@@ -39,25 +23,34 @@ a,
 nav a,
 button,
 a,
-.form-group label {
+.form-group label,
+.text-progress {
     font-size: 12px; /* Fallback */
     font-size: 0.75em;
     font-weight: 600;
 }
 
+body {
+    font-family: Helvetica, sans-serif; /* Fallback */
+    font-family: var(--font);
+    font-weight: 500;
+    line-height: 18px; /* Fallback */
+    line-height: 1.125;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif; /* Fallback */
+    font-family: var(--font);
+    font-size: 24px; /* Fallback */
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
 .text-progress {
-    font-size: 12px; /* Fallback */
-    font-size: 0.75em;
     text-align: right;
-}
-
-input {
-    font-size: 16px; /* Fallback */
-    font-size: 1rem;
-}
-
-.content {
-    text-align: center;
 }
 
 label {
@@ -79,6 +72,7 @@ legend {
     line-height: 0;
 }
 
+/* Tablet / Desktop */
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 36px; /* Fallback */
