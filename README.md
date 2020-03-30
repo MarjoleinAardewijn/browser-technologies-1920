@@ -70,6 +70,7 @@ Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken i
 - [Safe Web Fonts](https://web.mit.edu/jmorzins/www/fonts.html)
 - [Pagination](https://www.sitepoint.com/simple-javascript-quiz/)
 - [overflow-wrap: break-word](https://stackoverflow.com/questions/12196885/text-flowing-out-of-div)
+- [Material Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=2979FF&secondary.color=FBC02D)
 
 ## Credits
 
