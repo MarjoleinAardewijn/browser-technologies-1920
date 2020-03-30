@@ -32,13 +32,13 @@ app
     .get('/save', function(req, res) {
         let destination = urlStorage.getSaveUrl(req, "save", "questions");
 
-        render.save(res, 'Saved!', destination);
+        render.save(res, 'Opgeslagen!', destination);
     })
 
     .get('/thanks', function(req, res) {
         fileSystem.writeAnswersToJsonFile(answersFile, req.query);
 
-        render.basic(res, 'thanks', 'Thanks!');
+        render.basic(res, 'thanks', 'Bedankt!');
     })
 
     .listen(config.port, function() {
