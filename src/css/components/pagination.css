@@ -1,0 +1,9 @@
+.slide{
+    display: none;
+    height: 0;
+    transition: height 350ms ease-in-out;
+}
+.active-slide{
+    display: block;
+    height: auto;
+}
