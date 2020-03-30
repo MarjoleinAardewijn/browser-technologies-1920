@@ -67,11 +67,9 @@ Verder wil ik hier ook nog een loading state instellen en cache gaan gebruiken i
 ## Sources
 
 - [Progress Bar](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3)
-- [Copy to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 - [Safe Web Fonts](https://web.mit.edu/jmorzins/www/fonts.html)
 - [Pagination](https://www.sitepoint.com/simple-javascript-quiz/)
 - [overflow-wrap: break-word](https://stackoverflow.com/questions/12196885/text-flowing-out-of-div)
-- [round function](https://stackoverflow.com/questions/15762768/javascript-math-round-to-two-decimal-places)
 
 ## Credits
 
