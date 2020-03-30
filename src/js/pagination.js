@@ -51,11 +51,13 @@ showSlide(currentSlide);
 
 function showNextSlide(e) {
     e.preventDefault();
+    progressNext();
     showSlide(currentSlide + 1);
 }
 
 function showPreviousSlide(e) {
     e.preventDefault();
+    progressPrevious();
     showSlide(currentSlide - 1);
 }
 

@@ -73,6 +73,12 @@ legend {
     line-height: 1.5rem;
 }
 
+#progress {
+    font-size: 14px;
+    font-size: 0.875em;
+    line-height: 0;
+}
+
 @media only screen and (min-width: 768px) {
     h1 {
         font-size: 36px; /* Fallback */
