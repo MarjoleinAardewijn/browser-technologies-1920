@@ -9,7 +9,8 @@
     }
 
     .radio input {
-        display: none;
+        position: absolute;
+        opacity: 0;
     }
 
     .radio input + span {
@@ -76,17 +77,20 @@
         transition: transform .3s ease, -webkit-transform .3s ease;
     }
 
-    .radio:hover input + span:before {
+    .radio:hover input + span:before,
+    .radio:focus input + span:before {
         -webkit-transform: scale(0.92);
         transform: scale(0.92);
     }
 
-    .radio:hover input + span:after {
+    .radio:hover input + span:after,
+    .radio:focus input + span:after {
         -webkit-transform: scale(0.74);
         transform: scale(0.74);
     }
 
-    .radio:hover input:checked + span:after {
+    .radio:hover input:checked + span:after,
+    .radio:focus input:checked + span:after {
         -webkit-transform: scale(0.4);
         transform: scale(0.4);
     }

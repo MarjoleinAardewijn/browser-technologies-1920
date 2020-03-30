@@ -1,102 +1,54 @@
+// Max 10 questions
+
 const data = [
     {
         id: 1,
         name: "q1",
-        question: "Vraag 1",
+        question: "Heb je liever online of klassikaal les?",
         options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
+            a: "Online, dat scheeld veel reistijd.",
+            b: "Liever klassikaal.",
+            c: "Mijn maakt het niet veel uit."
         }
     },
     {
         id: 2,
         name: "q2",
-        question: "Vraag 2",
+        question: "Welke tool vind je het fijnst voor comminicatie?",
         options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
+            a: "Slack.",
+            b: "Discord.",
+            c: "WhatsApp."
         }
     },
     {
         id: 3,
         name: "q3",
-        question: "Vraag 3",
+        question: "Zit je vaak in de spraak channels op Discord?",
         options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
+            a: "Nee.",
+            b: "Soms.",
+            c: "Ja."
         }
     },
     {
         id: 4,
         name: "q4",
-        question: "Vraag 4",
+        question: "Hoe vind je het fijnst op feedback te krijgen?",
         options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
+            a: "Tijdens een call.",
+            b: "Als issue op Github.",
+            c: "Face-to-face."
         }
     },
     {
         id: 5,
         name: "q5",
-        question: "Vraag 5",
+        question: "Wil je wanneer de quarentaine is opgeheven nog met mensen uit de groep afspreken?",
         options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
-        }
-    },
-    {
-        id: 6,
-        name: "q6",
-        question: "Vraag 6",
-        options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
-        }
-    },
-    {
-        id: 7,
-        name: "q7",
-        question: "Vraag 7",
-        options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
-        }
-    },
-    {
-        id: 8,
-        name: "q8",
-        question: "Vraag 8",
-        options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
-        }
-    },
-    {
-        id: 9,
-        name: "q9",
-        question: "Vraag 9",
-        options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
-        }
-    },
-    {
-        id: 10,
-        name: "q10",
-        question: "Vraag 10",
-        options: {
-            a: "Antwoord 1",
-            b: "Antwoord 2",
-            c: "Antwoord 3"
+            a: "Ja dat kijkt me wel leuk, maar alleen met een klein groepje.",
+            b: "Ja zeker! Dat moet een groot feest worden!!",
+            c: "Van mijn hoedt het niet zo."
         }
     }
 ];
