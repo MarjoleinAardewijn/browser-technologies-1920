@@ -3,7 +3,7 @@
 <p align="center"><b>A demo based on the use case:</b><p>
 <p align="center"><b>I want to be able to fill in a survey about the Minor Web Development, with various answer options. If I don't finish the survey, I want to continue where I left off later.</b></p>
 
-<br>
+![Minor Web Development Enquete](https://user-images.githubusercontent.com/23479038/78030026-c4dc1100-7361-11ea-8f04-56425c15d1cd.png "Minor Web Development Enquete")
 
 <p align="center">
   <a href="https://boiling-gorge-63096.herokuapp.com/">
@@ -13,11 +13,7 @@
   <a href="https://github.com/MarjoleinAardewijn/browser-technologies-1920/blob/master/LICENSE.txt">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License">
   </a>
-</p> 
-
-<br>
-
-![Minor Web Development Enquete](https://user-images.githubusercontent.com/23479038/78030026-c4dc1100-7361-11ea-8f04-56425c15d1cd.png "Minor Web Development Enquete")
+</p>
 
 ## Introduction
 
