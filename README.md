@@ -17,7 +17,7 @@
 
 ## Introduction
 
-The survey for the minor Web Development is part of the course [@ cmda-minor-web 1920](https://github.com/cmda-minor-web/browser-technologies-1920).
+The survey for the minor Web Development is part of the course [@cmda-minor-web 1920](https://github.com/cmda-minor-web/browser-technologies-1920).
 In this cursor I had to create a website with the aim that all users, regardless of which browser they use, can use the core functionality.
 This is based on [Progressive Enhancement (PE)](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement). 
 To apply this, I had to built the website in 3 different layers (1. Functional/ Reliable; 2. Usable; 3. Pleasurable). So, first I added the HTML (functional/ reliable layer), then the CSS (usable layer) and finally (in the most enhanced version, the pleasurable layer) the JavaScript.
@@ -173,7 +173,7 @@ When JavaScript and CSS are turned off the website will only show the HTML.
 ![Survey Minor Web Development - Final page - HTML](https://user-images.githubusercontent.com/23479038/78015031-1035f580-7349-11ea-8336-8c45c8777765.png "Final page")
 </details>
 
-I know... it looks terrible! but the core functionality still works in all browsers used today! The user can still fill in the survey and continue the survey where they left off later if they didn't have the time to finish it.
+I know... it looks terrible! but the core functionality still works in all browsers! The user can still fill in the survey and continue it where they left off later if they didn't have the time to finish it.
 
 <details>
     <summary>Audit Results</summary>
@@ -184,7 +184,7 @@ I know... it looks terrible! but the core functionality still works in all brows
 
 #### Usable Layer
 
-Now let's turn on CSS to make it more pleasant for users to look at.
+Now let's turn on CSS to make the website more pleasant for users to look at.
 
 ![Survey Minor Web Development - Questions (1) - CSS](https://user-images.githubusercontent.com/23479038/78018535-5d689600-734e-11ea-8e8d-6541d2e6ea85.png "Questions (1)")
 
@@ -218,7 +218,7 @@ Adding the CSS makes it actually usable.
 
 #### Pleasurable Layer
 
-Now finally, let's turn on everything!
+Now finally, let's turn on the JavaScript as well, so that everything is turned on!
 
 ![Survey Minor Web Development - Questions - JS](https://user-images.githubusercontent.com/23479038/78019151-732a8b00-734f-11ea-8445-7eb3f201ccc9.png "Questions")
 
@@ -240,7 +240,7 @@ Now finally, let's turn on everything!
 ![Survey Minor Web Development - Final page - CSS](https://user-images.githubusercontent.com/23479038/78018680-9bfe5080-734e-11ea-8a2a-14f78d4a7fa2.png "Final page")
 </details>
 
-That look great and a lot quieter now all the questions have an own page! And it even has a progress bar, wow!
+That look great and a lot quieter now that all the questions have an own page. And there is even a progress bar, awesome!
 
 <details>
     <summary>Audit Results</summary>
@@ -259,8 +259,8 @@ I used some modern CSS properties, so I had to write fallbacks for those propert
 
 **1. Custom properties**
 
-I used a lot of custom properties, but [it isn't supported in older browser, IE and mobile browsers](https://caniuse.com/#search=custom%20properties). But luckily, it's very easy to write fallback for this using [CSS cascade](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
-Since in CSS the order of CSS rules matter. When you have two rules that appled who have equal specificity the one that comes last in the CSS is the one that will be used. But if that one doesn't work, the second-last will be used etc.
+I used a few custom properties, mostly for applying colors, but [they aren't supported in older browsers, IE and some mobile browsers](https://caniuse.com/#search=custom%20properties). But luckily, it's very easy to write fallbacks for this using [CSS cascade](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+Since in CSS the order of CSS rules matter. When you have applied two rules who have equal specificity, the one that comes last in the CSS code is the one that will be used. But if that one doesn't work, the second-last will be used etc.
 
 ```css
     :root {
@@ -293,9 +293,9 @@ Since in CSS the order of CSS rules matter. When you have two rules that appled 
 
 **2. REM and EM**
 
-REM and EM are widely [supported in all browser](https://caniuse.com/#search=rem), but not in all of them. In IE 6 - IE 8 for example, it isn't supported. And in iOS Safari 5.0-5.1, it's isn't supported in combination with media queries.
+REM and EM are widely [supported in browsers](https://caniuse.com/#search=rem), but not in all of them. In IE 6 - IE 8 for example, it isn't supported. And in iOS Safari 5.0-5.1, it isn't supported in combination with media queries.
 
-To make sure it work in all the browsers, I wrote fallbacks when using REM or EM units.
+To make sure it work in all the browsers, I wrote some fallbacks when using REM or EM units.
 
 ```css
 .content {
@@ -306,18 +306,15 @@ To make sure it work in all the browsers, I wrote fallbacks when using REM or EM
 
 **3. Multiple Box Shadows**
 
-When using `box-shadow` I used multiple shadows, this [isn't supported in older browsers](https://caniuse.com/#search=box-shadow%20Multiple%20shadows) and the support for some mobile browsers is unknown.
+With `box-shadow`, I used multiple shadows, this [isn't supported in older browsers](https://caniuse.com/#search=box-shadow%20Multiple%20shadows) and the support for some mobile browsers is unknown.
 
-I wrote a fallback for this but since this isn't enough I used the `@support` rule as well to make sure it's only visible in browsers that support it.
-I used a fallback and the `@support` rule because in IE 11 for example, custom properties aren't supported but `@supports` is.
+So, I wrote a fallback for this as well. And if the browser doesn't support it, it isn't a big deal, since it isn't really nessesary.
 
 ```css
-@supports (box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)) {
-    button,
-    .button {
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); /* Fallback */
-        box-shadow: var(--box-shadow);
-    }
+button,
+.button {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); /* Fallback */
+    box-shadow: var(--box-shadow);
 }
 ```
 
@@ -326,7 +323,7 @@ I used a fallback and the `@support` rule because in IE 11 for example, custom p
 `flex-box` is [supported in almost all the modern browsers](https://caniuse.com/#search=flex-box), but there are still some old browsers who don't support it or have some bugs with is (like IE browsers for example).
 And some older browsers don't support the wrapping or `align-content` properties.
 
-To detect if the browser supports `flex-box` I used the `@support` rule again.
+To detect if the browser supports `flex-box` I used the `@support` feature query. I used this because IE 11 for example doesn't support neither [feature query](https://caniuse.com/#search=Feature%20Queries) or `flex-box`. And this way the browser who does support it will use it, and for other browsers the basic CSS with `float` will be used for positioning the content.
 
 ```css
 @supports (display: flex) {
@@ -348,7 +345,7 @@ To detect if the browser supports `flex-box` I used the `@support` rule again.
 
 **5. Others**
 
-There are more properties I used like: transform, transitions, border-radius etc. But they don't require a fallback, since they aren't necessary.
+There are more properties I used like: transform, transitions, border-radius etc. But they don't require a fallback, since they aren't really necessary.
 
 #### JavaScript
 
