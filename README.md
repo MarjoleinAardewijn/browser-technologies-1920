@@ -1,7 +1,7 @@
 <h1>Browser Technologies @cmda-minor-web 1920</h1>
 
 <p align="center"><b>A demo based on the use case:</b><p>
-<p align="center"><b>I want to be able to fill in a survey about the Minor Web Development, with various answer options. If I don't finish the survey, I want to continue where I left off later.</b></p>
+<p align="center"><b>"I want to be able to fill in a survey about the Minor Web Development, with various answer options. If I don't finish the survey, I want to continue where I left off later."</b></p>
 
 <p align="center">
   <a href="https://boiling-gorge-63096.herokuapp.com/">
