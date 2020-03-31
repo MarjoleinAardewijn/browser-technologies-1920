@@ -393,7 +393,15 @@ var links = document.getElementById('links-pagination');
 
 For `links` I had to use an ID instead, because otherwise it wouldn't work with `insertAdjacentHTML`. And since the classes are only used in one place, I refactored it to an ID.
 
+## Evidence Learning Objectives
+
+In my [wiki](https://github.com/MarjoleinAardewijn/browser-technologies-1920/wiki/Bewijsvoering-Leerdoelen "Wiki") I have written 
+(in Dutch) a conclusion in which I discuss the learning objectives and criteria and how I have achieved them. This is the 
+evidence of this course and is based on the [rubric](https://docs.google.com/spreadsheets/d/1MV3BWwwg_Zz1n-S_qOM4iSm4gA4M6g0xAxGacyaPuac/edit#gid=0 "Rubric").
+
 ## Sources
+
+The sources I used the most during the development of the app are:
 
 - [Progress Bar](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3)
 - [Safe Web Fonts](https://web.mit.edu/jmorzins/www/fonts.html)
@@ -408,9 +416,3 @@ For `links` I had to use an ID instead, because otherwise it wouldn't work with 
    - [Breakingpar](https://www.breakingpar.com/bkp/home.nsf/0/87256B280015193F87257124007E0011)
    - [StackOverflow](https://stackoverflow.com/questions/15762768/javascript-math-round-to-two-decimal-places)
 - [README, from Menno de Vries](https://github.com/Mennauu/browser-technologies-1819)
-
-## Evidence Learning Objectives
-
-In my [wiki](https://github.com/MarjoleinAardewijn/browser-technologies-1920/wiki/Bewijsvoering-Leerdoelen "Wiki") I have written 
-(in Dutch) a conclusion in which I discuss the learning objectives and criteria and how I have achieved them. This is the 
-evidence of this course and is based on the [rubric](https://docs.google.com/spreadsheets/d/1MV3BWwwg_Zz1n-S_qOM4iSm4gA4M6g0xAxGacyaPuac/edit#gid=0 "Rubric").
