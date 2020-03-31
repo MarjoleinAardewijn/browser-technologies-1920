@@ -401,7 +401,7 @@ evidence of this course and is based on the [rubric](https://docs.google.com/spr
 
 ## Sources
 
-The sources I used the most during the development of the app are:
+The sources I used during the development of the webiste are:
 
 - [Progress Bar](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3)
 - [Safe Web Fonts](https://web.mit.edu/jmorzins/www/fonts.html)
