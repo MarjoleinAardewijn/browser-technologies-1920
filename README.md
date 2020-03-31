@@ -1,6 +1,6 @@
 <h1>Browser Technologies @cmda-minor-web 1920</h1>
 
-A demo based on the use case:
+<p align="center"><b>A demo based on the use case:</b><p>
 <p align="center"><b>I want to be able to fill in a survey about the Minor Web Development, with various answer options. If I don't finish the survey, I want to continue where I left off later.</b></p>
 
 <br>
@@ -17,7 +17,7 @@ A demo based on the use case:
 
 <br>
 
-![Minor Web Development Enquete](https://user-images.githubusercontent.com/23479038/78010505-b8948b80-7342-11ea-9b4b-7cb94abd5f9b.png "Minor Web Development Enquete")
+![Minor Web Development Enquete](https://user-images.githubusercontent.com/23479038/78030026-c4dc1100-7361-11ea-8f04-56425c15d1cd.png "Minor Web Development Enquete")
 
 ## Introduction
 
