@@ -1,4 +1,4 @@
-function urlStorageFromForm(query) {
+urlStorageFromForm = (query) => {
     let queries = {
         firstname: "",
         lastname: "",
@@ -19,13 +19,13 @@ function urlStorageFromForm(query) {
     }
 
     return queries;
-}
+};
 
-function getSaveUrl(req, searchValue, newValue) {
+getSaveUrl = (req, searchValue, newValue) => {
     let fullUrl = req.protocol + "://" + req.get("host") + req.originalUrl;
     let destination = fullUrl.replace(searchValue, newValue);
 
     return destination;
-}
+};
 
 module.exports = { urlStorageFromForm, getSaveUrl };

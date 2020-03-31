@@ -1,14 +1,14 @@
-const question = document.querySelectorAll('.question'),
-    links = document.querySelector('.links.pagination'),
-    previous = `
-        <button id="previous" class="button-3">Terug</button>
-    `,
-    next = `
-        <button id="next" class="button-3">Volgende</button>
-    `;
+var question = document.getElementsByClassName('question');
+var links = document.getElementById('links-pagination');
+var previous = `
+    <button id="previous" class="button-3">Terug</button>
+`;
+var next = `
+    <button id="next" class="button-3">Volgende</button>
+`;
 
 // add slide class
-for (let i = 0; i < question.length; ++i) {
+for (var i = 0; i < question.length; ++i) {
     question[i].classList.add('slide');
 }
 
@@ -17,12 +17,12 @@ links.insertAdjacentHTML("afterbegin", previous);
 links.insertAdjacentHTML("beforeend", next);
 
 // Pagination
-const backButton = document.getElementById('back'),
-    submitButton = document.getElementById('submit'),
-    previousButton = document.getElementById("previous"),
-    nextButton = document.getElementById("next"),
-    slides = document.querySelectorAll(".slide");
-let currentSlide = 0;
+var backButton = document.getElementById('back');
+var submitButton = document.getElementById('submit');
+var previousButton = document.getElementById("previous");
+var nextButton = document.getElementById("next");
+var slides = document.querySelectorAll(".slide");
+var currentSlide = 0;
 
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');

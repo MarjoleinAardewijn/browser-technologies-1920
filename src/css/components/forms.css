@@ -4,8 +4,8 @@ form {
 }
 
 .questions {
-    margin-bottom: 48px; /* Fallback */
-    margin-bottom: 3rem;
+    margin-bottom: 80px; /* Fallback */
+    margin-bottom: 5rem;
 }
 
 .links {

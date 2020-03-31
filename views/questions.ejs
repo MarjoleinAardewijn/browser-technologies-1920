@@ -5,7 +5,7 @@
     <div class="title">
         <h1><%= title %></h1>
     </div>
-    <div class="progress-bar-wrapper">
+    <div class="progress-bar-wrapper" id="progress-bar-wrapper">
         <div id="progress-bar">
             <div id="bar"></div>
         </div>
@@ -15,11 +15,12 @@
         <input type="text" name="firstname" placeholder="John" value="<%= queries.firstname %>" hidden>
         <input type="text" name="lastname" placeholder="Doe" value="<%= queries.lastname %>" hidden>
         <div class="questions">
+        <% const numberOfQuestions = data.length %>
         <%data.map(item => { %>
             <div class="question">
-                <p class="text-progress"><%= item.id%> van 10</p>
+                <p class="text-progress"><%= item.id%> van <%= numberOfQuestions %></p>
                 <fieldset>
-                    <legend><%= item.question %></legend>
+                    <legend><%= item.id %>. <%= item.question %></legend>
                     <%for(let value in item.options){ %>
                         <label class="radio">
                             <input type="radio" class="radiobutton" id="q<%= item.id + value%>" name="q<%= item.id %>" value="<%= value %>"
@@ -53,7 +54,7 @@
             </div>
         <% });%>
         </div>
-        <div class="links flex-links pagination">
+        <div class="links flex-links pagination" id="links-pagination">
             <button id="back" type="submit" formaction="/" class="button-3">Terug</button>
             <button type="submit" formaction="/save" class="button-3">Opslaan</button>
             <button id="submit" type="submit" class="button-3">Verstuur</button>
