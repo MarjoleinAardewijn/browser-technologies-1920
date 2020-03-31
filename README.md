@@ -38,7 +38,7 @@ To apply this, I had to built the website in 3 different layers (1. Functional/ 
     * [JavaScript](#JavaScript)
 * [Sources](#Sources)
 * [Credits](#Credits)
-* [Licence](#Licence)
+* [Evidence Learning Objectives](#Evidence-Learning-Objectives)
 
 ## Installation
 
@@ -404,7 +404,13 @@ For `links` I had to use an ID instead, because otherwise it wouldn't work with 
 ## Credits
 
 - [Form styling](https://codepen.io/andytran/pen/GpyKLM/)
-- Afronden Cijfers:
+- Rounding Figures:
    - [Breakingpar](https://www.breakingpar.com/bkp/home.nsf/0/87256B280015193F87257124007E0011)
    - [StackOverflow](https://stackoverflow.com/questions/15762768/javascript-math-round-to-two-decimal-places)
 - [README, from Menno de Vries](https://github.com/Mennauu/browser-technologies-1819)
+
+## Evidence Learning Objectives
+
+In my [wiki](https://github.com/MarjoleinAardewijn/browser-technologies-1920/wiki/Bewijsvoering-Leerdoelen "Wiki") I have written 
+(in Dutch) a conclusion in which I discuss the learning objectives and criteria and how I have achieved them. This is the 
+evidence of this course and is based on the [rubric](https://docs.google.com/spreadsheets/d/1MV3BWwwg_Zz1n-S_qOM4iSm4gA4M6g0xAxGacyaPuac/edit#gid=0 "Rubric").
