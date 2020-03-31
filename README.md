@@ -323,7 +323,7 @@ button,
 `flex-box` is [supported in almost all the modern browsers](https://caniuse.com/#search=flex-box), but there are still some old browsers who don't support it or have some bugs with is (like IE browsers for example).
 And some older browsers don't support the wrapping or `align-content` properties.
 
-To detect if the browser supports `flex-box` I used the `@support` feature query. I used this because IE 11 for example doesn't support neither [feature query](https://caniuse.com/#search=Feature%20Queries) or `flex-box`. And this way the browser who does support it will use it, and for other browsers the basic CSS with `float` will be used for positioning the content.
+To detect if the browser supports `flex-box` I used the `@support` feature query. I used this because IE 11 for example doesn't support neither [feature query](https://caniuse.com/#search=Feature%20Queries) or `flex-box`. And this way the browser who does support it will use it, and for other browsers (like IE 11) the basic CSS with `float` will be used for positioning the content.
 
 ```css
 @supports (display: flex) {
