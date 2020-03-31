@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-function writeAnswersToJsonFile(file, query) {
+writeAnswersToJsonFile = (file, query) => {
     let answer = {
         firstname: `${query.firstname}`,
         lastname: `${query.lastname}`,
@@ -25,6 +25,6 @@ function writeAnswersToJsonFile(file, query) {
 
         console.log("Done writing"); // Success
     });
-}
+};
 
 module.exports = { writeAnswersToJsonFile };

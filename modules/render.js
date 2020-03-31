@@ -1,29 +1,29 @@
-function basic(res, view, title) {
+basic = (res, view, title) => {
     res.render(view, {
         title: title
     })
-}
+};
 
-function save(res, title, url) {
+save = (res, title, url) => {
     res.render('save', {
         title: title,
         url
     })
-}
+};
 
-function home(res, queries) {
+home = (res, queries) => {
     res.render('home', {
         title: 'Minor Web Development',
         queries
     })
-}
+};
 
-function questions(res, data, queries) {
+questions = (res, data, queries) => {
     res.render('questions', {
         title: 'Vragen',
         data,
         queries
     })
-}
+};
 
 module.exports = { basic, save, home, questions };

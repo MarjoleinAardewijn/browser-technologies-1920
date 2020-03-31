@@ -18,24 +18,24 @@ app
     .set('views', 'views')
     .use(express.static('static'))
 
-    .get('/', function(req, res) {
+    .get('/', (req, res) => {
         let queries = urlStorage.urlStorageFromForm(req.query);
 
         render.home(res, queries);
     })
-    .get('/questions', function(req, res) {
+    .get('/questions', (req, res) => {
         let queries = urlStorage.urlStorageFromForm(req.query);
 
         render.questions(res, questionsData, queries);
     })
 
-    .get('/save', function(req, res) {
+    .get('/save', (req, res) => {
         let destination = urlStorage.getSaveUrl(req, "save", "questions");
 
         render.save(res, 'Opgeslagen!', destination);
     })
 
-    .get('/thanks', function(req, res) {
+    .get('/thanks', (req, res) => {
         fileSystem.writeAnswersToJsonFile(answersFile, req.query);
 
         render.basic(res, 'thanks', 'Bedankt!');
