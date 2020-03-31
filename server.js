@@ -8,7 +8,7 @@ const express = require('express'),
     questionsData = questions.data,
     app = express(),
     config = {
-        port: globalConfig.port
+        port: globalConfig.port || 4000
     };
 
 require("dotenv").config();
