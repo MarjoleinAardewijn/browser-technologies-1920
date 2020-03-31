@@ -93,7 +93,6 @@ form .links {
     }
 
     .form-group {
-        display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
         -webkit-box-pack: justify;

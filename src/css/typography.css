@@ -7,6 +7,8 @@ body {
     margin-bottom: 5px;
     font-size: 16px; /* Fallback */
     font-size: 1em;
+    color: #333; /* Fallback */
+    color: var(--dark);
 }
 
 .title,
@@ -71,6 +73,13 @@ input {
     font-size: 14px;
     font-size: 0.875em;
     line-height: 0;
+}
+
+a.url {
+    font-size: 16px; /* Fallback */
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 /* Tablet / Desktop */
