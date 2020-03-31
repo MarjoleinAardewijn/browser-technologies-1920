@@ -1,14 +1,13 @@
-const progressText = document.querySelectorAll('.text-progress'),
-    progressBarWrapper = document.querySelector('.progress-bar-wrapper'),
-    bar = document.querySelector('#bar'),
-    progressBar = document.querySelector('#progress-bar'),
-    progress = document.querySelector('#progress');
-
-let numberOfQuestions = round((100 / progressText.length), 1);
+var progressText = document.getElementsByClassName('text-progress');
+var progressBarWrapper = document.getElementById('progress-bar-wrapper');
+var bar = document.getElementById('bar');
+var progressBar = document.getElementById('progress-bar');
+var progress = document.getElementById('progress');
+var numberOfQuestions = round((100 / progressText.length), 1);
 
 progressBarWrapper.classList.add('show');
 
-for (let i = 0; i < progressText.length; ++i) {
+for (var i = 0; i < progressText.length; ++i) {
     progressText[i].style.display = 'none';
 }
 
@@ -16,12 +15,12 @@ bar.style.width = numberOfQuestions + '%';
 progress.innerText = Math.round(numberOfQuestions) + '%';
 
 function progressNext() {
-    let progressBarWidth = progressBar.clientWidth;
-    let barWidth = bar.clientWidth;
-    let widthPercentage = roundToHalf((barWidth / progressBarWidth) * 100);
+    var progressBarWidth = progressBar.clientWidth;
+    var barWidth = bar.clientWidth;
+    var widthPercentage = roundToHalf((barWidth / progressBarWidth) * 100);
 
-    let newBarWidth = (widthPercentage + numberOfQuestions);
-    let newBarWidthHTML = newBarWidth;
+    var newBarWidth = (widthPercentage + numberOfQuestions);
+    var newBarWidthHTML = newBarWidth;
 
     if (newBarWidthHTML >= 99) {
         newBarWidthHTML = 100;
@@ -32,10 +31,10 @@ function progressNext() {
 }
 
 function progressPrevious() {
-    let progressBarWidth = progressBar.clientWidth;
-    let barWidth = bar.clientWidth;
-    let widthPercentage = roundToHalf((barWidth / progressBarWidth) * 100);
-    let newBarWidth = widthPercentage - numberOfQuestions;
+    var progressBarWidth = progressBar.clientWidth;
+    var barWidth = bar.clientWidth;
+    var widthPercentage = roundToHalf((barWidth / progressBarWidth) * 100);
+    var newBarWidth = widthPercentage - numberOfQuestions;
 
     bar.style.width = newBarWidth + '%';
     progress.innerHTML = Math.round(newBarWidth) + '%';
@@ -47,8 +46,8 @@ function round(value, decimals) {
 }
 
 function roundToHalf(value) {
-    let converted = parseFloat(value); // Make sure we have a number
-    let decimal = (converted - parseInt(converted, 10));
+    var converted = parseFloat(value); // Make sure we have a number
+    var decimal = (converted - parseInt(converted, 10));
 
     decimal = Math.round(decimal * 10);
 
