@@ -308,7 +308,7 @@ To make sure it work in all the browsers, I wrote some fallbacks when using REM 
 
 With `box-shadow`, I used multiple shadows, this [isn't supported in older browsers](https://caniuse.com/#search=box-shadow%20Multiple%20shadows) and the support for some mobile browsers is unknown.
 
-So, I wrote a fallback for this as well. And if the browser doesn't support it, it isn't a big deal, since it isn't really nessesary.
+So, I wrote a fallback for this as well. And if the browser doesn't support it, it isn't a big deal, since it isn't really necessary.
 
 ```css
 button,
@@ -345,7 +345,7 @@ To detect if the browser supports `flex-box` I used the `@support` feature query
 
 **5. Others**
 
-There are more properties I used like: transform, transitions, border-radius etc. But they don't require a fallback, since they aren't really necessary.
+There are more properties I used like: transform, transitions, border-radius etc. But they don't require a fallback, since it doesn't really matter if they are there or not.
 
 #### JavaScript
 
