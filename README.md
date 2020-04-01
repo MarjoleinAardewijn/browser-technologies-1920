@@ -36,9 +36,10 @@ To apply this, I had to built the website in 3 different layers (1. Functional/ 
   * [Feature Detection](#Feature-Detection)
     * [CSS](#CSS)
     * [JavaScript](#JavaScript)
+* [Evidence Learning Objectives](#Evidence-Learning-Objectives)
+* [Feature Wishlist](#Feature-Wishlist)
 * [Sources](#Sources)
 * [Credits](#Credits)
-* [Evidence Learning Objectives](#Evidence-Learning-Objectives)
 
 ## Installation
 
@@ -419,6 +420,13 @@ var links = document.getElementById('links-pagination');
 ```
 
 For `links` I had to use an ID instead, because otherwise it wouldn't work with `insertAdjacentHTML`. And since the classes are only used in one place, I refactored it to an ID.
+
+## Feature Wishlist
+
+- [ ] Save answers when clicking the next button in the json file.
+- [ ] Use ID for better identification.
+- [ ] Make it a PWA.
+- [ ] Add caching.
 
 ## Evidence Learning Objectives
 
