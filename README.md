@@ -36,8 +36,8 @@ To apply this, I had to built the website in 3 different layers (1. Functional/ 
   * [Feature Detection](#Feature-Detection)
     * [CSS](#CSS)
     * [JavaScript](#JavaScript)
-* [Evidence Learning Objectives](#Evidence-Learning-Objectives)
 * [Feature Wishlist](#Feature-Wishlist)
+* [Evidence Learning Objectives](#Evidence-Learning-Objectives)
 * [Sources](#Sources)
 * [Credits](#Credits)
 
