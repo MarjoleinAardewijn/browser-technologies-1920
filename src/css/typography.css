@@ -47,6 +47,11 @@ h1 {
     line-height: 1;
 }
 
+p {
+    word-wrap: break-word; /* Fallback */
+    overflow-wrap: break-word;
+}
+
 .text-progress {
     text-align: right;
 }
